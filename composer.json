@@ -1,0 +1,13 @@
+{
+    "name": "ryzen5_pc/cert_key_tester",
+    "type": "project",
+    "require": {
+        "globalpayments/php-sdk": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Mark Anthony Smedal Jr",
+            "email": "msmedal@ivytech.edu"
+        }
+    ]
+}

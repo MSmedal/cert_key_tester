@@ -1,0 +1,49 @@
+[
+    {
+        "name": "globalpayments/php-sdk",
+        "version": "1.2.3",
+        "version_normalized": "1.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/globalpayments/php-sdk.git",
+            "reference": "56c49a47c28c001bf60550a37595ea1b603f3dba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/globalpayments/php-sdk/zipball/56c49a47c28c001bf60550a37595ea1b603f3dba",
+            "reference": "56c49a47c28c001bf60550a37595ea1b603f3dba",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-dom": "*",
+            "ext-openssl": "*",
+            "php": ">= 5.5.9"
+        },
+        "require-dev": {
+            "brianium/paratest": "dev-master",
+            "phpstan/phpstan-shim": "^0.8.4",
+            "phpunit/phpunit": "~5.0",
+            "squizlabs/php_codesniffer": "2.*"
+        },
+        "time": "2019-06-18T14:21:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GlobalPayments\\Api\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Heartland Payment Systems"
+            }
+        ],
+        "description": "PHP SDK for processing payments with Global Payments, including Heartland Payment Systems and Realex Payments",
+        "homepage": "https://developer.heartlandpaymentsystems.com/documentation"
+    }
+]
