@@ -1,5 +1,0 @@
-language: php
-rvm:
- - 7.3
-
-install: php vendor/autoload.php
