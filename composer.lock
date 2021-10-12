@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07cf867c43a8ea21a22aa9b503521acc",
+    "content-hash": "cecaaf9b189e2d4bd8054278e406630b",
     "packages": [
         {
             "name": "globalpayments/php-sdk",
-            "version": "1.2.3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/globalpayments/php-sdk.git",
-                "reference": "56c49a47c28c001bf60550a37595ea1b603f3dba"
+                "reference": "a73f8039b213ce6888df1f12e93fc3264d920f2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/globalpayments/php-sdk/zipball/56c49a47c28c001bf60550a37595ea1b603f3dba",
-                "reference": "56c49a47c28c001bf60550a37595ea1b603f3dba",
+                "url": "https://api.github.com/repos/globalpayments/php-sdk/zipball/a73f8039b213ce6888df1f12e93fc3264d920f2e",
+                "reference": "a73f8039b213ce6888df1f12e93fc3264d920f2e",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,11 @@
             ],
             "description": "PHP SDK for processing payments with Global Payments, including Heartland Payment Systems and Realex Payments",
             "homepage": "https://developer.heartlandpaymentsystems.com/documentation",
-            "time": "2019-06-18T14:21:41+00:00"
+            "support": {
+                "issues": "https://github.com/globalpayments/php-sdk/issues",
+                "source": "https://github.com/globalpayments/php-sdk/tree/master"
+            },
+            "time": "2019-12-10T15:53:35+00:00"
         }
     ],
     "packages-dev": [],
@@ -59,5 +63,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }
