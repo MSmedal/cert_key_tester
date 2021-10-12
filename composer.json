@@ -2,7 +2,7 @@
     "name": "ryzen5_pc/cert_key_tester",
     "type": "project",
     "require": {
-        "globalpayments/php-sdk": "^1.2"
+        "globalpayments/php-sdk": "^2.0"
     },
     "authors": [
         {
